@@ -1,10 +1,16 @@
 import React from 'react'
 
-import { ExampleComponent } from 'buttonaas'
+import { ButtonComponent } from 'buttonaas'
 import 'buttonaas/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+
+      <ButtonComponent type='secondary' text="Add" />
+    </>
+  
+  )
 }
 
 export default App
